@@ -13,12 +13,12 @@ or "pip install -e git+ssh://git@bitbucket.org/rshanker779/rshanker779_common.gi
 """
 )
 setup(
-    name=postcode_map,
+    name="postcode_map",
     version="1.0.0",
-    author=rshanker779,
-    author_email=rshanker779@gmail.com,
-    description=Generation and plotting of UK postcodes from partial matches,
-    long_description=long_description if long_description is not None else Generation and plotting of UK postcodes from partial matches
+    author="rshanker779",
+    author_email="rshanker779@gmail.com",
+    description="Generation and plotting of UK postcodes from partial matches",
+    long_description=long_description if long_description is not None else "Generation and plotting of UK postcodes from partial matches",
     license="MIT",
     python_requires=">=3.5",
     install_requires=[
